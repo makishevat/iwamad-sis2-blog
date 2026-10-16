@@ -1,0 +1,55 @@
+:root {
+  /* color */
+  --color-primary: #1d4ed8;
+  --color-on-primary: #ffffff;
+  --color-text: #1f2937;
+  --color-text-muted: #6b7280;
+  --color-surface: #ffffff;
+  --color-bg: #f9fafb;
+  --color-border: #d1d5db;
+  --color-error: #b91c1c;
+
+  /* space */
+  --space-2: 8px;
+  --space-4: 16px;
+  --space-6: 24px;
+
+  /* radius */
+  --radius-md: 8px;
+
+  font-family: system-ui, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.5;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 var(--space-4);
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+h1, h2 {
+  color: var(--color-text);
+  margin: 0 0 var(--space-2);
+}
+
+a {
+  color: var(--color-primary);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
