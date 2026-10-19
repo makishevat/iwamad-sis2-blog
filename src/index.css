@@ -28,7 +28,7 @@ body {
 }
 
 #root {
-  max-width: 800px;
+  max-width: 1480px;
   margin: 0 auto;
   padding: 0 var(--space-4);
   min-height: 100svh;

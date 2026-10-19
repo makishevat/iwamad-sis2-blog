@@ -103,3 +103,8 @@ form {
   color: var(--color-error);
   font-size: 0.875rem;
 }
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--space-4);
+}
