@@ -10,7 +10,7 @@ export function LikeButton({ postId }: LikeButtonProps) {
   const count = likes[postId] ?? 0;
 
   return (
-    <Button onClick={() => addLike(postId)}>
+    <Button className="like-btn" onClick={() => addLike(postId)}>
       ♥ {count}
     </Button>
   );

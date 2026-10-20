@@ -6,8 +6,8 @@ export function DashboardPage() {
 
   return (
     <section>
-      <h1>Dashboard</h1>
-      <p>This page is only for signed-in readers.</p>
+      <h1>Welcome back, Tomiris!</h1>
+      <p>My posts: 5</p>
       <Button variant="secondary" onClick={signOut}>Sign out</Button>
     </section>
   );
