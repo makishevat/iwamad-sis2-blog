@@ -1,3 +1,3 @@
-Pages: https://github.com/makishevat/iwamad-sis2-blog
+Pages: https://makishevat.github.io/iwamad-sis2-blog/
 Tests: Test Files  3 passed (3), Tests  3 passed (3)
 Protected: /dashboard
